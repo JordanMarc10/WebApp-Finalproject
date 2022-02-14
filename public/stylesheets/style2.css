@@ -1,0 +1,72 @@
+/* Contact Form */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Krona One', sans-serif;
+  }
+  body{
+    background:#4444ff;
+  }
+  #contact-form{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top:15vh;
+    background:#eee;
+    border:3px solid #ace;
+    border-radius:10px;
+    margin-bottom:20px;
+  }
+  #top{
+    display:flex;
+    flex-wrap:wrap;
+    background:white;
+    padding:10px 30px;
+  }
+  
+  #top * {
+    width:50%;
+    color:#cfcfcf;
+    
+  }
+  .title{
+    font-size:24px;
+  }
+  .text{
+    
+    font-size:10px;
+  }
+  .fa{
+    padding-top:5px;
+    padding-right:10%;
+    transform: scale(1.7);
+    text-align:right;
+    font-size:50px;
+  }
+  
+  #mid {
+    padding:20px 20px 0 20px;
+    display:flex;
+    flex-direction:column;
+    }
+  #mid * {
+    margin: 5px;
+    padding:10px;
+    border:1px solid #afafaf;
+  }
+  #mid textarea{
+    height:50%;
+  }
+  #mid input[type=submit]{
+    background:#4444ff;
+    width:30%;
+    color:white;  
+  }
+  
+  /* ====FONTS==*/
+  
+   @import url('https://fonts.googleapis.com/css?family=Krona+One');
+  

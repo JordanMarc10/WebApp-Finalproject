@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  html
+  head
+  body #{error}
+    form(action='signUp' method='post' style='border:1px solid #ccc')
+      .container
+        h1 Sign Up
+        p Please fill in this form to create an account.
+        hr
+        label(for='mail')
+          b Email
+        input(type='text' placeholder='Enter Email' name='textmail' required='')
+        label(for='password')
+          b Password
+        input(type='password' placeholder='Enter Password' name='psw' required='')
+        label(for='psw-repeat')
+        label
+          input(type='checkbox' checked='checked' name='remember' style='margin-bottom:15px')
+          |  Remember me
+        p
+          | By creating an account you agree to our 
+          a(href='logIn' style='color:dodgerblue') LOG IN NOW !!
+          | 
+        .clearfix
+          button.signupbtn(type='submit' value='signUp') Sign Up
